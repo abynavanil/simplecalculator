@@ -101,3 +101,9 @@ button:hover{
     border: 0;
     font-size: 40px;
 }
+input::placeholder {
+    color: black; /* Replace 'gray' with your desired color */
+    font-style: italic; /* Optional styling */
+    font-size: 40px; /* Adjust size if needed */
+    /* padding: 20px; */
+}
