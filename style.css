@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "chakra petch", sans-serif;
+    /* border: solid; */
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+
+}
+.buttons{
+    background-color: black;
+    display: grid;
+    padding: 20px;
+    gap: 10px;
+    height: 60vh;
+    width: 50vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 2px solid white;
+    border-top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 50vh;
+    border: 2px solid white;
+
+
+
+}
+.number{
+    background-color: rgb(80, 80, 84);
+    border-radius: 50px;
+}
+.ac{
+    background-color: rgb(241, 163, 60);
+    color: black;
+}
+.dot{
+    background-color: rgb(241, 163, 60);
+    color:black;
+}
+
+.screen{
+    width: 90%;
+    height: 70%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    background-color: rgb(168, 165, 165);
+    text-align: end;
+}
+.equal{
+    border-radius: 20px;
+    grid-row: span 4;
+    background-color: rgb(241, 163, 60);
+    color: black;
+
+}
+.operator{
+    background-color: rgb(241, 163, 60);
+    color: black;
+    font-size: 35px;
+
+}
+button{
+    font-size: 30px;
+    border: 1px solid rgb(88, 86, 86);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    /* transition: color .5s,background-color .5s; */
+}
+button:hover{
+    /* background-color: black; */
+    color: rgb(255, 255, 255); 
+
+
+}
+.number:hover{
+    border: solid 1px white;
+
+}
+#result{
+    border: 0;
+    font-size: 40px;
+}
